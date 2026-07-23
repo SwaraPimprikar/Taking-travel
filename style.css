@@ -197,7 +197,7 @@
     position: relative;
     padding: 40px 0 90px;
     overflow: hidden;
-    background: #fafafa;
+    background: #ffffff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -210,7 +210,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: .5;
+    opacity: .9;
     z-index: 1;
 }
 
