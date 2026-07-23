@@ -415,6 +415,7 @@
     .stories-grid{ gap:18px; }
     .story-row{ grid-template-columns:88px 1fr; padding:10px; gap:12px; }
     .story-row img{ height:64px; width:100%; }
+    .story-main .play-circle{ display:none; }
     .story-row h4{ font-size:13.5px; }
     .story-row p{ font-size:12px; }
 
