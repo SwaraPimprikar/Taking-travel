@@ -1,8 +1,6 @@
 const btn = document.getElementById('hamburgerBtn');
 const nav = document.getElementById('mobileNav');
 btn.addEventListener('click', () => nav.classList.toggle('open'));
-
-// "Share your story" hero button scrolls down to the form
 const shareBtn = document.getElementById('shareStoryBtn');
 const shareForm = document.getElementById('shareForm');
 if (shareBtn && shareForm) {
@@ -10,8 +8,6 @@ if (shareBtn && shareForm) {
     shareForm.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
 }
-
-// Form submission: validate + show a confirmation instead of doing nothing
 const travelForm = document.getElementById('travelForm');
 if (travelForm) {
   travelForm.addEventListener('submit', (e) => {
