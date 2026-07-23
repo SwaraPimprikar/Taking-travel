@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Talking Travel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="container nav-inner">
+    <div class="logo">
+      <span class="script">Talking</span>
+      <span class="mark">Travel</span>
+    </div>
+    <nav class="links">
+      <a href="#" class="active">Home</a>
+      <a href="#">Story</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact Us</a>
+    </nav>
+    <div class="nav-right">
+      <span class="nav-icon">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </span>
+      <div class="divider"></div>
+      <span class="nav-icon person-icon">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+     stroke="currentColor" stroke-width="2"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Outer Circle -->
+    <circle cx="12" cy="12" r="11"></circle>
+
+    <!-- Head -->
+    <circle cx="12" cy="9" r="4"></circle>
+
+    <!-- Shoulders -->
+    <path d="M5.5 20c2.5-2.8 4.5-3.8 6.5-3.8s4 1 6.5 3.8"></path>
+</svg>
+</span>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="container">
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#" class="active">Home</a>
+      <a href="#">Story</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg">
+    <img src="images/Person jumping.png" alt="Person jumping from a rocky seaside cliff" />
+  </div>
+  <div class="hero-content">
+    <h1>
+      <span class="accent">Let's talk</span> about
+      <br />your next trip!
+    </h1>
+    <p>Share your favorite travel destination and we will feature it in our next blog!</p>
+    <div class="hero-cta">
+      <button class="btn-primary">Share your story</button>
+      <a class="watch-link" href="#">
+        <span class="play-circle">▶</span> Watch highlights
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="featured">
+  <div class="container featured-card">
+    <img src="images/Swiss adventure.png" alt="Swiss adventure" />
+    <div>
+      <span class="eyebrow">Featured destination</span>
+      <h2>Our swiss adventure blog</h2>
+      <p>Visiting the swiss alps? Want to know the requirements on travelling to Switzerland during the pandemic? Our blog might help!</p>
+      <div class="watch-now">
+        <span class="play-circle solid">▶</span> Watch Now
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="destinations">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Join our adventures</span>
+      <h2>Discover the world with us</h2>
+    </div>
+    <div class="dest-grid">
+      <div class="dest-card">
+        <img src="images/Iceland.png" alt="Iceland" />
+        <div class="dest-name">Iceland</div>
+        <div class="dest-discover">Discover</div>
+      </div>
+      <div class="dest-card">
+        <img src="images/Italy.png" alt="Italy" />
+        <div class="dest-name">Italy</div>
+        <div class="dest-discover">Discover</div>
+      </div>
+      <div class="dest-card">
+        <img src="images/Dubai.png" alt="Dubai" />
+        <div class="dest-name">Dubai</div>
+        <div class="dest-discover">Discover</div>
+      </div>
+      <div class="dest-card">
+        <img src="images/Patagonia.png" alt="Patagonia" />
+        <div class="dest-name">Patagonia</div>
+        <div class="dest-discover">Discover</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="join">
+
+    <img src="images/global.png" class="join-path" alt="Global map">
+
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Let's build a community</span>
+      <h2>Join our next destination</h2>
+    </div>
+    <div class="form-wrap">
+      <div class="form-card">
+        <h3>Share your travels</h3>
+        <p class="hint">Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+        <input type="text" placeholder="Destination name" />
+        <select>
+          <option>Country of Destination</option>
+          <option>Iceland</option>
+          <option>Italy</option>
+          <option>Japan</option>
+        </select>
+        <input type="text" placeholder="Your name" />
+        <select>
+          <option>Shooting category</option>
+          <option>Adventure</option>
+          <option>Culture</option>
+          <option>Relaxation</option>
+        </select>
+        <textarea placeholder="Describe what kind of photos you want to focus on"></textarea>
+        <button class="submit-btn">Submit</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stories">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Catch up to our posts</span>
+      <h2>Recent story entries</h2>
+    </div>
+    <div class="stories-grid">
+      <div class="story-main">
+        <img src="images/Zermatt Switzerland.png" alt="Zermatt Switzerland" />
+        <div class="story-main-text">
+          <div>
+            <h3>Zermatt, Switzerland</h3>
+            <p>Marvel on the beauty of the iconic Matterhorn. Find the best places to stay that has the best views of this peak...</p>
+          </div>
+          <span class="play-circle solid" style="flex-shrink:0;">▶</span>
+        </div>
+      </div>
+      <div class="story-side">
+        <div class="story-row">
+          <img src="images/Tuscany Italy.png" alt="Tuscany Italy" />
+          <div>
+            <h4>Tuscany, Italy</h4>
+            <p>The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape. <a href="#">view full blog...</a></p>
+          </div>
+        </div>
+        <div class="story-row">
+          <img src="images/Kyoto Japan.png" alt="Kyoto Japan" />
+          <div>
+            <h4>Kyoto, Japan</h4>
+            <p>Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It's time to visit tokyo. <a href="#">view full blog...</a></p>
+          </div>
+        </div>
+        <div class="story-row">
+          <img src="images/Lofoten Islands Norway.png" alt="Lofoten Islands Norway" />
+          <div>
+            <h4>Lofoten Islands, Norway</h4>
+            <p>Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard. <a href="#">view full blog...</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© 2022, Talking Travel. All Rights Reserved.</span>
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">Blog</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
