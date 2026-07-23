@@ -70,7 +70,7 @@
     </h1>
     <p>Share your favorite travel destination and we will feature it in our next blog!</p>
     <div class="hero-cta">
-      <button class="btn-primary">Share your story</button>
+      <button class="btn-primary" id="shareStoryBtn">Share your story</button>
       <a class="watch-link" href="#">
         <span class="play-circle">▶</span> Watch highlights
       </a>
@@ -132,26 +132,28 @@
       <span class="eyebrow">Let's build a community</span>
       <h2>Join our next destination</h2>
     </div>
-    <div class="form-wrap">
+    <div class="form-wrap" id="shareForm">
       <div class="form-card">
         <h3>Share your travels</h3>
         <p class="hint">Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
-        <input type="text" placeholder="Destination name" />
-        <select>
-          <option>Country of Destination</option>
-          <option>Iceland</option>
-          <option>Italy</option>
-          <option>Japan</option>
-        </select>
-        <input type="text" placeholder="Your name" />
-        <select>
-          <option>Shooting category</option>
-          <option>Adventure</option>
-          <option>Culture</option>
-          <option>Relaxation</option>
-        </select>
-        <textarea placeholder="Describe what kind of photos you want to focus on"></textarea>
-        <button class="submit-btn">Submit</button>
+        <form id="travelForm">
+          <input type="text" placeholder="Destination name" required />
+          <select required>
+            <option value="">Country of Destination</option>
+            <option>Iceland</option>
+            <option>Italy</option>
+            <option>Japan</option>
+          </select>
+          <input type="text" placeholder="Your name" required />
+          <select required>
+            <option value="">Shooting category</option>
+            <option>Adventure</option>
+            <option>Culture</option>
+            <option>Relaxation</option>
+          </select>
+          <textarea placeholder="Describe what kind of photos you want to focus on"></textarea>
+          <button class="submit-btn" type="submit">Submit</button>
+        </form>
       </div>
     </div>
   </div>
@@ -178,21 +180,21 @@
         <div class="story-row">
           <img src="images/Tuscany Italy.png" alt="Tuscany Italy" />
           <div>
-            <h4>Tuscany, Italy</h4>
+            <h3>Tuscany, Italy</h3>
             <p>The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape. <a href="#">view full blog...</a></p>
           </div>
         </div>
         <div class="story-row">
           <img src="images/Kyoto Japan.png" alt="Kyoto Japan" />
           <div>
-            <h4>Kyoto, Japan</h4>
+            <h3>Kyoto, Japan</h3>
             <p>Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It's time to visit tokyo. <a href="#">view full blog...</a></p>
           </div>
         </div>
         <div class="story-row">
           <img src="images/Lofoten Islands Norway.png" alt="Lofoten Islands Norway" />
           <div>
-            <h4>Lofoten Islands, Norway</h4>
+            <h3>Lofoten Islands, Norway</h3>
             <p>Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard. <a href="#">view full blog...</a></p>
           </div>
         </div>
