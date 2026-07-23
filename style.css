@@ -28,7 +28,7 @@
     margin-bottom:8px;
   }
 
-  /* ---------- Header ---------- */
+  /*Header*/
   header{ padding:22px 0; border-bottom:1px solid var(--border); }
   .nav-inner{ display:flex; align-items:center; justify-content:space-between; }
   .logo{ display:flex; flex-direction:column; line-height:1; }
@@ -89,7 +89,7 @@
   }
   .mobile-nav a.active{ color:var(--purple); }
 
-  /* ---------- Hero ---------- */
+  /*Hero*/
   .hero{
     position:relative;
     min-height:520px;
@@ -163,7 +163,7 @@
   }
   .play-circle.solid{ background:var(--purple); color:#fff; }
 
-  /* ---------- Featured post ---------- */
+  /*Featured post*/
   .featured{ padding:80px 0 70px; }
   .featured-card{
     display:grid;
@@ -176,11 +176,11 @@
   .featured-card p{ color:var(--gray); font-size:15px; max-width:460px; line-height:1.7; }
   .watch-now{ display:flex; align-items:center; gap:10px; margin-top:20px; font-weight:600; color:var(--purple); font-size:14.5px; }
 
-  /* ---------- Section heading ---------- */
+  /*Section heading*/
   .section-head{ text-align:center; margin-bottom:52px;}
   .section-head h2{ font-size:32px; font-weight:900; }
 
-  /* ---------- Destinations ---------- */
+  /*Destinations*/
   .destinations{ padding:20px 0 100px; }
   .dest-grid{ display:grid; grid-template-columns:repeat(4, 1fr); gap:26px; }
   .dest-card img{
@@ -192,7 +192,7 @@
   .dest-name{ font-family:'Poppins', sans-serif; font-weight:700; font-size:16.5px; margin-top:16px; text-align:center; }
   .dest-discover{ color:var(--purple); font-weight:600; font-size:13.5px; text-align:center; margin-top:4px; }
 
-  /* ---------- Join community ---------- */
+  /*Join community*/
   .join{
     position: relative;
     padding: 40px 0 90px;
@@ -259,7 +259,7 @@
     cursor:pointer;
   }
 
-  /* ================= STORIES ================= */
+  /*STORIES*/
 
 .stories{
     padding:70px 0;
@@ -272,7 +272,7 @@
     align-items:start;
 }
 
-/* LEFT CARD */
+/*Left side*/
 
 .story-main{
     background:var(--bg-tint);
@@ -324,7 +324,7 @@
     padding-left:3px; 
 }
 
-/* RIGHT COLUMN */
+/* Right side*/
 
 .story-side{
     display:grid;
@@ -356,7 +356,7 @@
 
 .story-row p a{color:var(--purple); font-weight:600; text-decoration:none;
 }
-  /* ---------- Footer ---------- */
+  /*Footer*/
   footer{ border-top:1px solid var(--border); padding:26px 0; }
   .footer-inner{
     display:flex;
